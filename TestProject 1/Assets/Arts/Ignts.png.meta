@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: 047e79db5d9b37e4facda26fcf8186f8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ignts_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1496.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bad210f74ff6964f93f4ee589a2add9
+      internalID: -1916805259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1496.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4928da25332a4a80be14b8a19a421
+      internalID: -396397246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1496.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52af4dd733265fb41a49cb6cdb5d3f11
+      internalID: 2071749170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_3
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1496.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97c9f003c06d2a499ef27e5a890d43a
+      internalID: -440749317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1496.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321be44338a5aea488020a5817b81f03
+      internalID: 1753390909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1331.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a40c06cc449af14599d95836b369ff5
+      internalID: 1504396117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1331.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977db18abaf30de4d999e0945cd71ad2
+      internalID: 436491370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_7
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1331.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968a0503deb13e84687d5cba33ec1fbe
+      internalID: -488535051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1331.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66256327cc23559468ec7d9ea0bce083
+      internalID: 94701510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1331.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5048939a4f5bde049bb8dded5806fe24
+      internalID: 716282221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1166.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea916bc66e40404aaa58a8562dec8b2
+      internalID: -1028646338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_11
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1166.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676252db5428043478ec7ecb9e2cf168
+      internalID: 317769201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1166.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01041d7c7798c1a4a9c8e9356778a87f
+      internalID: 214764059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1166.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca27f0b36b9340946bc17c44356a02f8
+      internalID: -1436179721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_14
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1166.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a455443df56a44fb407a368b1d54bd
+      internalID: 1944595970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1001.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427278a8c4fd55146a600d7790bc7b90
+      internalID: -342248561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1001.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c6d25e30f3594c9a226859372e71f
+      internalID: 1015593141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1001.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b10478f3419149aa44e0b5ce314b0
+      internalID: -975421835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1001.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6e584cbe172804a8e1616c1276d38c
+      internalID: 1730751923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_19
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1001.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a061dc71c7e334ea5c1a832d97b1e8
+      internalID: 475586937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 836.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ce8c3b97b066640a42e251328ec4ff
+      internalID: -177379476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 836.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba2bf66ef435d44812c9937e76e628
+      internalID: 1899541071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 836.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7351d24625688641b93ef6d355c294f
+      internalID: 2078858466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_23
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 836.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d6e34f0ff622045abf73406c16c3bd
+      internalID: 1548822760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_24
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 836.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff0d16808c47224086807824f7da198
+      internalID: 919671670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 671.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66970181f4f66814d9522bfd4dd97805
+      internalID: -438050076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 671.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d942870848b05243be2023204fb7b3f
+      internalID: 1720506383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_27
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 671.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd2d23038856cf45ae620fdfe20fe40
+      internalID: 198678181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_28
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 671.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db903a02603b1284bb39fb4114685eb8
+      internalID: -1798871863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_29
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 671.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb085536fd5de4d9cb10a068a37b62
+      internalID: -952834816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 506.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ae5d8a1a26ea4983047f767a0590b
+      internalID: 1146373159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 506.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd5e6aa5d61f246a978c7e93b77854
+      internalID: -1640385678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 506.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158a518f0e7c14943b8b9601a6b0a334
+      internalID: 1221189640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_33
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 506.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb6be3c7fa6b4046b33040cfecd0f3c
+      internalID: 2094081250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 506.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0716adedc3419ff43a575e72ae72b94c
+      internalID: 728825305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 341.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8398d8622dd85cc42be636756dce7954
+      internalID: -1125921370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_36
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 341.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28faedfc8c3cc284488e5359450f19ad
+      internalID: 287031170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_37
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 341.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6846739ad8fd9d44a8b503da799e9de
+      internalID: -407075742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_38
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 341.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5d273c64f3764428dce5658f9736a7
+      internalID: 1108701777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_39
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 341.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402efbb5369c1d04081e188b89b7d47c
+      internalID: 1722895479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 176.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbd84dd511d2b147853568760699f50
+      internalID: -2109160698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 176.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7998a0b6b3565d541a21c74aa427e839
+      internalID: -175925897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_42
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 176.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b8fa81acf627f459ec032b78b66beb
+      internalID: -440185432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_43
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 176.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0815490abf30e429593a7fe1545263
+      internalID: 1886745491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_44
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 176.8
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d8032b5ae00f2459d297a28d160d65
+      internalID: -2050852581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 11.800003
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066bef5f62bda7f4c86daa7df962af93
+      internalID: 755206405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 11.800003
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb72bf3b11375641a02564136cb136e
+      internalID: -1151455056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_47
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 11.800003
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6071299364bc8a418446024f068545e
+      internalID: 1899743298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_48
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 11.800003
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a1cf03c6d5240428419f80ee1e72c8
+      internalID: 754320639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignts_49
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 11.800003
+        width: 138
+        height: 155.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317f8706034f28844991cc8760ac1e0e
+      internalID: 17813189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ignts_0: -1916805259
+      Ignts_1: -396397246
+      Ignts_10: -1028646338
+      Ignts_11: 317769201
+      Ignts_12: 214764059
+      Ignts_13: -1436179721
+      Ignts_14: 1944595970
+      Ignts_15: -342248561
+      Ignts_16: 1015593141
+      Ignts_17: -975421835
+      Ignts_18: 1730751923
+      Ignts_19: 475586937
+      Ignts_2: 2071749170
+      Ignts_20: -177379476
+      Ignts_21: 1899541071
+      Ignts_22: 2078858466
+      Ignts_23: 1548822760
+      Ignts_24: 919671670
+      Ignts_25: -438050076
+      Ignts_26: 1720506383
+      Ignts_27: 198678181
+      Ignts_28: -1798871863
+      Ignts_29: -952834816
+      Ignts_3: -440749317
+      Ignts_30: 1146373159
+      Ignts_31: -1640385678
+      Ignts_32: 1221189640
+      Ignts_33: 2094081250
+      Ignts_34: 728825305
+      Ignts_35: -1125921370
+      Ignts_36: 287031170
+      Ignts_37: -407075742
+      Ignts_38: 1108701777
+      Ignts_39: 1722895479
+      Ignts_4: 1753390909
+      Ignts_40: -2109160698
+      Ignts_41: -175925897
+      Ignts_42: -440185432
+      Ignts_43: 1886745491
+      Ignts_44: -2050852581
+      Ignts_45: 755206405
+      Ignts_46: -1151455056
+      Ignts_47: 1899743298
+      Ignts_48: 754320639
+      Ignts_49: 17813189
+      Ignts_5: 1504396117
+      Ignts_6: 436491370
+      Ignts_7: -488535051
+      Ignts_8: 94701510
+      Ignts_9: 716282221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
