@@ -17,13 +17,23 @@ public class MapManager : MonoBehaviour
     //当前关卡瓦片坐标列表
     private List<Vector3> TilePositions = new();
 
+    //当前场景中激活的瓦片物体列表
+    private List<GameObject> activeTiles = new();
+
     [Header("矿石偏移量")]
     public float offsetRange;
 
+    //创建地图
     public void CreatMap()
     {
         LoadLevel(LevelConfigs[GameManager.instance.CurrentLevelIndex]);
         LoadTiles();
+    }
+
+    //清除地图
+    public void ClearMap()
+    {
+        ClearTiles();
     }
 
     /// <summary>
@@ -74,7 +84,17 @@ public class MapManager : MonoBehaviour
         {
             GameObject tile = ObjectPool.instance.Get(ObjectPool.instance.prefabs[3], TilePositions[i]);
             tile.GetComponent<SpriteRenderer>().sortingOrder = -(int)(TilePositions[i].y * 100);
+            activeTiles.Add(tile);
         }
+    }
+
+    public void ClearTiles()
+    {
+        for (int i = activeTiles.Count - 1; i >= 0; i--)
+        {
+            ObjectPool.instance.Release(activeTiles[i]);
+        }
+        activeTiles.Clear();
     }
 
 }

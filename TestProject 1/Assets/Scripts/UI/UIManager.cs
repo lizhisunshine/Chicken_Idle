@@ -20,6 +20,15 @@ public class UIManager : MonoBehaviour
     private List<TextMeshProUGUI> TmpList_OreText = new();
 
     /// <summary>
+    /// 矿石ui坐标位置
+    /// </summary>
+    public List<GameObject> ObjList_IngotText = new();
+    /// <summary>
+    /// 矿锭文字列表
+    /// </summary>
+    private List<TextMeshProUGUI> TmpList_IngotText = new();
+
+    /// <summary>
     /// 矿石目标位置列表
     /// </summary>
     [HideInInspector]public List<Vector3> VectorList_OreTarget = new();
@@ -41,12 +50,17 @@ public class UIManager : MonoBehaviour
         {
             TmpList_OreText.Add( ObjList_OreText[i].GetComponentInChildren<TextMeshProUGUI>());
         }
-        //Debug.Log(ObjList_OreText[0].GetComponent<TextMeshProUGUI>());
+
+        for (int i = 0; i < ObjList_IngotText.Count; i++)
+        {
+            TmpList_IngotText.Add(ObjList_IngotText[i].GetComponentInChildren<TextMeshProUGUI>());
+        }
     }
 
     private void Update()
     {
         UpdateOreText();
+        UpdateIngotText();
 
     }
 
@@ -57,6 +71,16 @@ public class UIManager : MonoBehaviour
         {
             E_OreType oreType = (E_OreType)a;
             TmpList_OreText[a].text = OreManager.instance.oreDic[oreType].ToString();
+            //TmpList_OreText[a].text = OreManager.instance.oreDic<a>;
+        }
+    }
+
+    void UpdateIngotText()
+    {
+        for (int a = 0; a < TmpList_IngotText.Count; a++)
+        {
+            E_OreType oreType = (E_OreType)a;
+            TmpList_IngotText[a].text = OreManager.instance.ingotDic[oreType].ToString();
             //TmpList_OreText[a].text = OreManager.instance.oreDic<a>;
         }
     }

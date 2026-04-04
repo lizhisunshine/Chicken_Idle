@@ -34,9 +34,11 @@ public class RockMechanics : MonoBehaviour
 
     private void OnDisable()
     {
-        //收回时，失活对应贴图对象
-        Rocks[(int)currentRockType].SetActive(false);
-        BrokenRocks[(int)currentRockType].SetActive(false);
+        // 收回时，关闭所有贴图，防止对象池复用时残留
+        for (int i = 0; i < Rocks.Count; i++)
+            Rocks[i].SetActive(false);
+        for (int i = 0; i < BrokenRocks.Count; i++)
+            BrokenRocks[i].SetActive(false);
         CompleteDraw = false;
     }
 
@@ -63,6 +65,9 @@ public class RockMechanics : MonoBehaviour
     /// </summary>
     void SetRandomRock()
     {
+
+        Debug.Log($"概率检查: Gold={OreManager.instance.chunkGoldChance}");
+
         float num = 100f;
         //铱
         if (UnityEngine.Random.Range(0f, num) < OreManager.instance.chunkIridiumChance)

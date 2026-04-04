@@ -86,6 +86,29 @@ public class WeaponManager : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        EventCenter.Instance.AddEventListener<SkillNodeSO>(
+            SkillTreeManager.EVENT_SKILL_PURCHASED, OnSkillPurchased);
+    }
+
+    private void OnDisable()
+    {
+        EventCenter.Instance.RemoveEventListener<SkillNodeSO>(
+            SkillTreeManager.EVENT_SKILL_PURCHASED, OnSkillPurchased);
+    }
+
+    private void OnSkillPurchased(SkillNodeSO node)
+    {
+        switch (node.effectEventName)
+        {
+            case "unlockWeapon":
+                // effectValue ÌîÎäÆ÷Ë÷Òý£¨0~13£©
+                WeaponUnlockNum = Mathf.Max(WeaponUnlockNum, (int)node.effectValue + 1);
+                break;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

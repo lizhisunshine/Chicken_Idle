@@ -39,4 +39,27 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
     }
+    private void OnEnable()
+    {
+        EventCenter.Instance.AddEventListener<SkillNodeSO>(
+            SkillTreeManager.EVENT_SKILL_PURCHASED, OnSkillPurchased);
+    }
+
+    private void OnDisable()
+    {
+        EventCenter.Instance.RemoveEventListener<SkillNodeSO>(
+            SkillTreeManager.EVENT_SKILL_PURCHASED, OnSkillPurchased);
+    }
+
+    private void OnSkillPurchased(SkillNodeSO node)
+    {
+        switch (node.effectEventName)
+        {
+            case "minePower": minePower += node.effectValue; break;
+            case "mineTimeDecrease": mineTime += node.effectValue; break; 
+            case "miningAreaSize": miningAreaSize += node.effectValue; break;
+            case "doubleEffectChance": doubleEffectChance += node.effectValue; break;
+            case "startingOreCount": startingOreCount += (int)node.effectValue; break;
+        }
+    }
 }
