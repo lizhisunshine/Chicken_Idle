@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
+//using UnityEditor.PackageManager;
 using UnityEngine;
 
 
@@ -55,6 +55,8 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     public void EnterLevel()
     {
+        Debug.Log($"[LevelManager] EnterLevel 开始，startingOreCount={GameManager.instance.startingOreCount}");
+
         //清除石头
         OreManager.instance.ClearOreAndRock();
 
@@ -64,15 +66,18 @@ public class LevelManager : MonoBehaviour
 
         //创建关卡
         LoadLevel();
-        //Debug.Log("开始生成岩石，数量：" + GameManager.instance.startingOreCount);
+
+        Debug.Log($"[LevelManager] LoadLevel 完成，准备生成 {GameManager.instance.startingOreCount} 个岩石");
         
         //创建岩石
         for (int i = 0; i < GameManager.instance.startingOreCount; i++)
         {
             Vector3 pos = MapManager.instance.GetRandomSpawnPos();
-            Debug.Log("生成岩石位置：" + pos);
+            Debug.Log($"[LevelManager] 生成岩石 [{i}]，位置={pos}");
             OreManager.instance.CreatRock(pos);
         }
+
+        Debug.Log($"[LevelManager] 岩石生成完成");
 
         //启动计时器
         MineTimer.instance.StartTimer();

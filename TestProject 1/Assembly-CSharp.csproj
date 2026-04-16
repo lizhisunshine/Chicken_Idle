@@ -86,10 +86,13 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Scripts\Ores\OreManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Weapon\WeaponDetailPanel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\Scripts\Test\TestFinger.cs" />
     <Compile Include="Assets\Scripts\UI\LevelCompletePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\CarouselScrollView.cs" />
+    <Compile Include="Assets\Scripts\UI\SnapScrollView.cs" />
     <Compile Include="Assets\Scripts\SkillTrees\SkillTreeManager.cs" />
     <Compile Include="Assets\Scripts\UI\MineTimerUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />

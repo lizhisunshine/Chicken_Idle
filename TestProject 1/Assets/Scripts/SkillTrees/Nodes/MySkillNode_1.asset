@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: MySkillNode_1
   m_EditorClassIdentifier: 
   nodeName: "\u77F3\u91CC\u6DD8\u91D1_1"
-  description: "\u77F3\u5934\u83B7\u53D6\u91D1\u77FF+1"
+  description: "\u589E\u52A0\u77FF\u77F3\u7684\u57FA\u7840\u4EF7\u503C"
   icon: {fileID: 0}
   maxPurchaseCount: 5
   basePrice: 0
   priceMultiplier: 1
   costResource: 0
   prerequisites: []
-  effectEventName: fullGoldChance
+  effectEventName: oreMultiplier
   effectValue: 5
   isUnlockType: 0

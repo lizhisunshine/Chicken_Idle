@@ -44,6 +44,9 @@ public class AttackArea : MonoBehaviour
         {
             this.transform.position = new Vector3 (10000, 0, 0);
         }
+
+        //每帧更新当前大小
+        this.transform.localScale = new Vector3(GameManager.instance.miningAreaSize, GameManager.instance.miningAreaSize, 1);
     }
 
     private IEnumerator Mine()

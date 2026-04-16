@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094bbf3b591045e47905b3cc6c2059d3, type: 3}
+  m_Name: "\u591A\u6316\u4E00\u4F1A_1"
+  m_EditorClassIdentifier: 
+  nodeName: "\u591A\u6316\u4E00\u4F1A_1"
+  description: "\u589E\u52A0\u6316\u77FF\u65F6\u95F4"
+  icon: {fileID: 0}
+  maxPurchaseCount: 5
+  basePrice: 9
+  priceMultiplier: 1
+  costResource: 0
+  prerequisites: []
+  effectEventName: mineTimeDecrease
+  effectValue: 1
+  isUnlockType: 0

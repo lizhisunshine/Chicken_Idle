@@ -34,6 +34,9 @@ public class RockMechanics : MonoBehaviour
 
     private void OnDisable()
     {
+        if (OreManager.instance == null) return;
+        if (Rocks == null || Rocks.Count == 0) return;
+        OreManager.instance.UnregisterRock(this.gameObject);
         // 收回时，关闭所有贴图，防止对象池复用时残留
         for (int i = 0; i < Rocks.Count; i++)
             Rocks[i].SetActive(false);
@@ -67,7 +70,6 @@ public class RockMechanics : MonoBehaviour
     {
 
         Debug.Log($"概率检查: Gold={OreManager.instance.chunkGoldChance}");
-
         float num = 100f;
         //铱
         if (UnityEngine.Random.Range(0f, num) < OreManager.instance.chunkIridiumChance)

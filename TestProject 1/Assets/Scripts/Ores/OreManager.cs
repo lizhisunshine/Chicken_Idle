@@ -227,8 +227,11 @@ public class OreManager : MonoBehaviour
     /// </summary>
     public void CreatRock(Vector3 vector)
     {
+        Debug.Log($"[OreManager] CreatRock 调用，位置={vector}，对象池prefab={ObjectPool.instance.prefabs[0]?.name}");
         GameObject rock = ObjectPool.instance.Get(ObjectPool.instance.prefabs[0], vector);
+        Debug.Log($"[OreManager] CreatRock 结果：rock={rock?.name}，active={rock?.activeSelf}，position={rock?.transform.position}");
         activeRocks.Add(rock);
+        Debug.Log($"[OreManager] activeRocks 数量={activeRocks.Count}");
     }
 
     /// <summary>
@@ -251,15 +254,17 @@ public class OreManager : MonoBehaviour
         ingotDic[type] += (int)(a/oreToIngotRatio);
     }
 
-    //清除所有岩石并重置矿石数量
     public void ClearOreAndRock()
     {
+        Debug.Log($"[OreManager] ClearOreAndRock 调用，当前 activeRocks 数量={activeRocks.Count}");
         // 先收回所有激活的岩石到对象池
         for (int i = activeRocks.Count - 1; i >= 0; i--)
         {
+            Debug.Log($"[OreManager] 收回岩石 [{i}]：{activeRocks[i]?.name}，active={activeRocks[i]?.activeSelf}");
             ObjectPool.instance.Release(activeRocks[i]);
         }
-        activeRocks.Clear();
+        //activeRocks.Clear();
+        Debug.Log($"[OreManager] 收回完成，activeRocks 数量={activeRocks.Count}");
 
         // 再清零矿石数量
         foreach (E_OreType ore in Enum.GetValues(typeof(E_OreType)))
